@@ -29,11 +29,11 @@ interface fastEthernet 0/1
 switchport mode access
 switchport access vlan 14
 description PC 01
-interface fastEthernet 0/2
+interface fastEthernet 0/3
 switchport mode access
 switchport access vlan 14
 description PC 02
-interface fastEthernet 0/24
+interface fastEthernet 0/23
 switchport mode trunk
 switchport trunk native vlan 99
 switchport trunk allowed vlan 14,99,104
